@@ -1,0 +1,95 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+.container {
+ display: flex;
+ height: 100vh;
+ width: 65vw;
+ flex-wrap: wrap;
+}
+
+.card {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 33.3333%;
+  width: 33.333%;
+  border-style: none;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  font-size: 35px;
+
+}
+
+.info {
+  background-color: #FFC107;
+  width:66.666%;
+}
+
+.profile {
+  background-color: #D32F2F;
+  text-align: center;
+
+}
+
+.experience {
+  background-color: #F44336;
+}
+
+.contact {
+  background-color: #800000;
+
+}
+
+.interests {
+  background-color: #B22222;
+
+}
+
+.diplomacy {
+  background-color: #757575;
+
+}
+
+.defense {
+  background-color: #E64A19;
+}
+
+.donate {
+  background-color: #BDBDBD;
+}
+
+div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin:0;
+}
+img {
+  height: 20%;
+}
+
+.girl-image {
+  height: 70px;
+}
+.walkie-image {
+  height:60px;
+}
+.honor-image {
+  height:50px;
+}
+p{
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.iron-man-image {
+    float: right;
+    object-fit: cover;
+    width: 35vw;
+    height: 100vh;
+}

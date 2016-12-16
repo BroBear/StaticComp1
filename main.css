@@ -1,0 +1,149 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+.container {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ height: 100vh;
+ width: 100vw;
+}
+
+.card {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-style: none;
+  height: 25%;
+  width: 50%;
+}
+
+h1 {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 40px;
+  padding-bottom: 5px;
+
+}
+
+.info {
+  width:100%;
+  background-color: #FFC107;
+  height: 18%;
+}
+
+.portfolio {
+  background-color: #757575;
+  text-align: center;
+
+}
+
+.honors {
+  background-color: #F44336;
+}
+
+.contact {
+  background-color: #D63B3B;
+
+}
+
+.interests {
+  background-color: #BDBDBD;
+
+}
+
+.diplomacy {
+  background-color: #D32F2F;
+
+}
+
+.defense {
+  background-color: #E64A19;
+}
+
+.donate {
+  background-color: #B22222;
+  width: 100%;
+}
+
+p{
+  padding-top: 4px;
+  padding-left: 30px;
+}
+
+img {
+  height: 30%;
+}
+
+.girl-icon {
+  height: 75px;
+}
+.walkie-icon {
+  height:70px;
+}
+.interests-icon {
+  height:50px;
+}
+
+
+@media screen and (min-width:700px){
+  .container {
+   display: flex;
+   flex-wrap: wrap;
+   height: 100vh;
+   width: 65vw;
+  }
+  .card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    height: 33.3333%;
+    width: 33.3333%;
+  }
+
+  p {
+    padding-left: 10px;
+  }
+
+  .info {
+    background-color: #FFC107;
+    width:66.666%;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin:0;
+ }
+
+  .tony-stark-image {
+    float: right;
+    object-fit: cover;
+    height: 100vh;
+    width: 35vw;
+ }
+
+  .dot-icon {
+  float: right;
+   height: 40px;
+   width: 55px;
+ }
+}
+
+
+@media screen and (min-width:320px) and (max-width:700px) {
+  .tony-stark-image {
+    display: none;
+  }
+  .dot-icon {
+    display: none;
+  }
+}
