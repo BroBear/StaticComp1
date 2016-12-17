@@ -23,7 +23,7 @@ h1 {
   color: white;
   font-family: 'Exo 2', sans-serif;
   font-size: 40px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 
 }
 
@@ -68,23 +68,41 @@ h1 {
 }
 
 p{
-  padding-top: 4px;
+  /*padding-top: 4px;*/
   padding-left: 30px;
 }
 
 img {
   height: 30%;
 }
-
+.walkie-icon {
+  padding-bottom: 10px;
+  height:70px;
+}
 .girl-icon {
   height: 75px;
 }
-.walkie-icon {
-  height:70px;
+
+.honor-icon {
+  margin: 5px;
+  height: 59px;
 }
 .interests-icon {
   height:50px;
+  margin: 7px;
 }
+
+.diplomacy-icon {
+  padding-bottom: 10px;
+}
+.defense-icon {
+  padding-bottom: 10px;
+}
+.donate-icon {
+  padding-bottom: 10px;
+}
+
+
 
 
 @media screen and (min-width:700px){
@@ -106,6 +124,7 @@ img {
 
   p {
     padding-left: 10px;
+    padding-top: 10px;
   }
 
   .info {
